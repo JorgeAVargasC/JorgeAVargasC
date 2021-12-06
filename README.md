@@ -112,8 +112,8 @@ Design
 
 ### Github Stats:
 
-<img width="600em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JorgeAVargasC&theme=dark&card_width=450em)](https://github.com/JorgeAVargasC/jorgeVargas/github-readme-stats"/>
+<img width="600em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JorgeAVargasC&show_icons=true&hide_border=true&theme=tokyonight&card_width=450em)](https://github.com/JorgeAVargasC/JorgeAVargasC/github-readme-stats"/>
 
-<img width="600em" src="https://github-readme-stats.vercel.app/api?username=JorgeAVargasC&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&theme=dark&hide_stars=false" />
+<img width="600em" src="https://github-readme-stats.vercel.app/api?username=JorgeAVargasC&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&theme=tokyonight&hide_stars=false" />
 
 
