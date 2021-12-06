@@ -4,10 +4,14 @@
   “role” : “Fullstack Dev”,
   “data” : {
     "Linkedin" : "https://www.linkedin.com/in/jorgeavargasc/", 
-    "Resume"   : "https://jorgeavargasc.github.io/"
   }
 }
 ```
+
+<!-- 
+TODO 
+"Resume"   : "https://jorgeavargasc.github.io/"
+ -->
 
 <h2>
 🚀 Technical Skills
