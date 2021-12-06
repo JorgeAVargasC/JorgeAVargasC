@@ -1,12 +1,12 @@
 ```shell
- { “name” : “Jorge Andrés Vargas Cordoba”,
-   “role” : “Fullstack Dev”,
-   “data” : 
-     { 
-      "Linkedin" : "https://www.linkedin.com/in/jorgeavargasc/", 
-      "Resume"   : "https://jorgeavargasc.github.io/"
-     }
- }
+{ 
+  “name” : “Jorge Andrés Vargas Cordoba”,
+  “role” : “Fullstack Dev”,
+  “data” : {
+    "Linkedin" : "https://www.linkedin.com/in/jorgeavargasc/", 
+    "Resume"   : "https://jorgeavargasc.github.io/"
+  }
+}
 ```
 
 <h2>
