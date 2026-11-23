@@ -1,99 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
-  <title id="t">Hi there! I'm Jorge — Full-stack Developer from Colombia</title>
-  <desc id="d">React, TypeScript, Next.js and NestJS. Electronics and Telecommunications Engineer.</desc>
+  <title id="t">Jorge Vargas — Software Engineer</title>
+  <desc id="d">Software Engineer based in Bilbao. I build interfaces, systems, products, with AI.</desc>
 
   <defs>
-    <clipPath id="card"><rect width="1200" height="400" rx="28"/></clipPath>
-
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#2a2a2a"/>
+    <clipPath id="card"><rect width="1200" height="400" rx="20"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1d1d21" stroke-width="1"/>
     </pattern>
-
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="70"/>
-    </filter>
-
-    <linearGradient id="aurora" gradientUnits="userSpaceOnUse" x1="610" y1="0" x2="850" y2="0" spreadMethod="reflect">
-      <stop offset="0" stop-color="#05df72"/>
-      <stop offset="0.55" stop-color="#00a6f4"/>
-      <stop offset="1" stop-color="#06b6d4"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;-240 0;0 0" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
-
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#070707" stop-opacity="0.9"/>
-      <stop offset="0.6" stop-color="#070707" stop-opacity="0"/>
-    </linearGradient>
-
-    <clipPath id="type">
-      <rect x="110" y="290" height="50" width="0">
-        <animate attributeName="width" dur="16s" repeatCount="indefinite"
-          keyTimes="0;0.0875;0.2;0.2375;0.25;0.3375;0.45;0.4875;0.5;0.5875;0.7;0.7375;0.75;0.8375;0.95;0.9875;1"
-          values="0;578;578;0;0;687;687;0;0;641;641;0;0;625;625;0;0"/>
-      </rect>
-    </clipPath>
   </defs>
 
   <style>
-    .sans { font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
-    .mono { font-family: 'Geist Mono', 'Cascadia Code', 'SF Mono', 'Fira Code', Consolas, Menlo, 'DejaVu Sans Mono', monospace; }
-    .pulse { animation: pulse 2s ease-in-out infinite; }
+    .sans { font-family: 'Space Grotesk', 'Inter', 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', 'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
     .blink { animation: blink 1s steps(1) infinite; }
-    .p { opacity: 0; animation: show 16s steps(1) infinite; }
-    .p1 { animation-delay: 0s; }
-    .p2 { animation-delay: 4s; }
-    .p3 { animation-delay: 8s; }
-    .p4 { animation-delay: 12s; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
-    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    .w { opacity: 0; animation: show 12s steps(1) infinite; }
+    .w1 { animation-delay: 0s; } .w2 { animation-delay: 3s; }
+    .w3 { animation-delay: 6s; } .w4 { animation-delay: 9s; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    @keyframes blink { 50% { opacity: 0; } }
     @keyframes show { 0% { opacity: 1; } 25%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .blink, .w { animation: none; } .w1 { opacity: 1; } }
   </style>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="400" fill="#070707"/>
+    <rect width="1200" height="400" fill="#151518"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
 
-    <!-- Aurora -->
-    <g filter="url(#blur)">
-      <ellipse cx="930" cy="150" rx="260" ry="150" fill="#05df72" opacity="0.5">
-        <animate attributeName="cx" values="930;860;930" dur="11s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="150;220;150" dur="9s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.4;0.6;0.4" dur="8s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="1080" cy="270" rx="240" ry="150" fill="#00a6f4" opacity="0.45">
-        <animate attributeName="cx" values="1080;1000;1080" dur="13s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="270;190;270" dur="10s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.5;0.3;0.5" dur="8s" repeatCount="indefinite"/>
-      </ellipse>
-      <ellipse cx="760" cy="330" rx="200" ry="110" fill="#0891b2" opacity="0.3">
-        <animate attributeName="cx" values="760;860;760" dur="12s" repeatCount="indefinite"/>
-      </ellipse>
+    <!-- top bar -->
+    <line x1="0" y1="64" x2="1200" y2="64" stroke="#2b2b31"/>
+    <text x="56" y="39" class="mono" font-size="14" letter-spacing="2" fill="#8f8f96">JV — ENGINEER'S INDEX</text>
+    <circle class="pulse" cx="900" cy="35" r="5" fill="#c6f24e"/>
+    <text x="916" y="40" class="mono" font-size="14" letter-spacing="1" fill="#a6a6ad">Open to opportunities</text>
+
+    <!-- name -->
+    <text x="52" y="188" class="sans" font-size="104" font-weight="700" letter-spacing="-3" fill="#ededE8">Jorge Vargas</text>
+    <text x="52" y="282" class="sans" font-size="104" font-weight="700" letter-spacing="-3" fill="none" stroke="#ededE8" stroke-width="1.2">Software Engineer</text>
+
+    <!-- statement -->
+    <line x1="0" y1="326" x2="1200" y2="326" stroke="#2b2b31"/>
+    <text x="56" y="365" class="mono" font-size="20" fill="#8f8f96">I build</text>
+    <g class="mono" font-size="20" fill="#ededE8">
+      <text class="w w1" x="148" y="365">interfaces.</text>
+      <text class="w w2" x="148" y="365">systems.</text>
+      <text class="w w3" x="148" y="365">products.</text>
+      <text class="w w4" x="148" y="365">with AI.</text>
     </g>
-
-    <rect width="1200" height="400" fill="url(#dots)" opacity="0.6"/>
-    <rect width="1200" height="400" fill="url(#fade)"/>
-
-    <!-- Title -->
-    <text x="80" y="170" class="sans" font-size="82" font-weight="800" letter-spacing="-2" fill="#ffffff">Hi there! I'm <tspan fill="url(#aurora)">Jorge</tspan></text>
-
-    <!-- Role -->
-    <circle class="pulse" cx="88" cy="226" r="7" fill="#05df72"/>
-    <text x="110" y="236" class="sans" font-size="29" fill="#a1a1aa">Full-stack Developer <tspan fill="#3f3f46">·</tspan> <tspan fill="#71717a" font-size="25">Colombia</tspan></text>
-
-    <!-- Typing line -->
-    <text x="80" y="324" class="mono" font-size="26" font-weight="700" fill="#05df72">&gt;</text>
-    <g clip-path="url(#type)" class="mono" font-size="26" fill="#e4e4e7">
-      <text class="p p1" x="111" y="324" textLength="577" lengthAdjust="spacing">React · TypeScript · Next.js · NestJS</text>
-      <text class="p p2" x="111" y="324" textLength="686" lengthAdjust="spacing">MSc Computing &amp; Intelligent Systems @ Deusto</text>
-      <text class="p p3" x="111" y="324" textLength="640" lengthAdjust="spacing">Electronics &amp; Telecommunications Engineer</text>
-      <text class="p p4" x="111" y="324" textLength="624" lengthAdjust="spacing">Turning creative visions into solid UIs</text>
-    </g>
-    <g>
-      <rect class="blink" x="116" y="300" width="13" height="30" rx="2" fill="#05df72"/>
-      <animateTransform attributeName="transform" type="translate" dur="16s" repeatCount="indefinite"
-        keyTimes="0;0.0875;0.2;0.2375;0.25;0.3375;0.45;0.4875;0.5;0.5875;0.7;0.7375;0.75;0.8375;0.95;0.9875;1"
-        values="0 0;578 0;578 0;0 0;0 0;687 0;687 0;0 0;0 0;641 0;641 0;0 0;0 0;625 0;625 0;0 0;0 0"/>
-    </g>
+    <rect class="blink" x="290" y="348" width="10" height="21" fill="#c6f24e"/>
+    <text x="1144" y="365" class="mono" font-size="14" text-anchor="end" fill="#8f8f96">Bilbao, ES · 43.26°N — 2.93°W</text>
   </g>
 
-  <rect x="0.5" y="0.5" width="1199" height="399" rx="28" fill="none" stroke="#1c1c1c"/>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="20" fill="none" stroke="#2b2b31"/>
 </svg>
