@@ -1,15 +1,15 @@
 <div align="center">
 
 <a href="https://jorgeavargasc.vercel.app/">
-  <img src="./assets/header.svg" width="100%" alt="Jorge Vargas — Software Engineer">
+  <img src="./assets/header.svg" width="100%" alt="Jorge Vargas — Software Engineer. I build interfaces, systems, products — with craft.">
 </a>
 
 <br><br>
 
 <a href="https://jorgeavargasc.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-c6f24e?style=for-the-badge&logo=vercel&logoColor=0a0a0c" alt="Portfolio"></a>
+<a href="https://drive.google.com/drive/folders/1_VxKkbBV0Tu3WC7M4at8GqH_gPMG9i-8"><img src="https://img.shields.io/badge/Download%20CV-c6f24e?style=for-the-badge&logo=googledrive&logoColor=0a0a0c" alt="Download CV"></a>
 <a href="https://www.linkedin.com/in/jorgeavargasc/"><img src="https://img.shields.io/badge/LinkedIn-1d1d21?style=for-the-badge&logo=linkedin&logoColor=ededE8" alt="LinkedIn"></a>
 <a href="mailto:javargas1209@gmail.com"><img src="https://img.shields.io/badge/Email-1d1d21?style=for-the-badge&logo=gmail&logoColor=ededE8" alt="Email"></a>
-<a href="https://drive.google.com/drive/folders/1_VxKkbBV0Tu3WC7M4at8GqH_gPMG9i-8?usp=drive_link"><img src="https://img.shields.io/badge/Résumé-1d1d21?style=for-the-badge&logo=googledrive&logoColor=ededE8" alt="Résumé"></a>
 
 </div>
 
@@ -17,12 +17,14 @@
 
 ## About
 
-**Software Engineer** (frontend / fullstack) with 4 years building scalable web apps: React and TypeScript up front, Node.js and NestJS behind it. At **BpoLabs** I led a legacy migration to Clean / Hexagonal Architecture, ship with automated testing, and work every day alongside AI agents.
+**Software Engineer** (frontend / fullstack) with 4 years building scalable web apps: React and TypeScript up front, Node.js and NestJS behind it. I led a legacy migration to Clean / Hexagonal Architecture, ship with automated testing, and work every day alongside AI agents. Now I'm going deeper into intelligent systems.
 
-Now based in Bilbao, Spain, going deeper into intelligent systems.
+**Path** · Signals → Web → Software → Intelligence
 
-- MSc in Computing and Intelligent Systems (MUCSI), **Universidad de Deusto**: Sep 2026 – present
-- B.Eng. in Electronics and Telecommunications, **Universidad del Cauca**: Mar 2024
+- **2026 — Now** · MSc Computing & Intelligent Systems, **University of Deusto** · Bilbao
+- **2022 — 2026** · Software Engineer — Frontend / Fullstack, **BpoLabs**
+- **2020 — 2022** · Full-stack Web Developer, **IEEE Student Branch · Unicauca**
+- **2016 — 2024** · B.Eng. Electronics & Telecommunications, **University of Cauca**
 
 <br>
 
@@ -45,34 +47,34 @@ Now based in Bilbao, Spain, going deeper into intelligent systems.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://buchbakery.vercel.app"><img src="https://jorgeavargasc.vercel.app/images/projects/buch.webp" width="100%" alt="Buch — Bakery & Café"></a>
-      <h3>Buch · Bakery & Café</h3>
-      <p>Brand identity and landing page for an artisan bakery concept — logo, palette and a full visual system in warm earthy tones.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Tailwind v4</code></p>
-      <p><a href="https://buchbakery.vercel.app"><b>Live demo →</b></a></p>
+      <a href="https://brysa.vercel.app"><img src="./assets/projects/brysa.svg" width="100%" alt="Brysa — a cocktail being poured"></a>
+      <h3>Brysa · Cocktails & Tapas</h3>
+      <p>Identity and landing for a cocktail & tapas bar in Cali.</p>
+      <p><code>React</code> <code>TS</code> <code>Tailwind v4</code></p>
+      <p><a href="https://brysa.vercel.app"><b>Live preview ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://brysa.vercel.app"><img src="https://jorgeavargasc.vercel.app/images/projects/brysa.webp" width="100%" alt="Brysa — Cocktails & Tapas"></a>
-      <h3>Brysa · Cocktails & Tapas</h3>
-      <p>Brand identity and landing page for a premium cocktail bar in Cali — dark, elegant, with a rotating artisan cocktail menu.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Tailwind v4</code></p>
-      <p><a href="https://brysa.vercel.app"><b>Live demo →</b></a></p>
+      <a href="https://buchbakery.vercel.app"><img src="./assets/projects/buch.svg" width="100%" alt="Buch — a layered cake with a candle"></a>
+      <h3>Buch · Bakery & Café</h3>
+      <p>Brand identity and landing for an artisan bakery.</p>
+      <p><code>React</code> <code>TS</code> <code>Tailwind v4</code></p>
+      <p><a href="https://buchbakery.vercel.app"><b>Live preview ↗</b></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://bio-sphere-frontend.vercel.app/"><img src="https://jorgeavargasc.vercel.app/images/projects/bio-sphere.webp" width="100%" alt="Bio Sphere"></a>
+      <a href="https://bio-sphere-frontend.vercel.app/"><img src="./assets/projects/bio-sphere.svg" width="100%" alt="Bio Sphere — a rotating planet with a satellite and a pinging sensor"></a>
       <h3>Bio Sphere</h3>
-      <p>Real-time environmental dashboard to monitor air quality, temperature, humidity and more.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Tailwind</code> <code>HeroUI</code></p>
-      <p><a href="https://bio-sphere-frontend.vercel.app/"><b>Live demo →</b></a> · <a href="https://github.com/JorgeAVargasC/bio-sphere-frontend">Code</a></p>
+      <p>Real-time environmental monitoring dashboard.</p>
+      <p><code>React</code> <code>TS</code> <code>Tailwind</code> <code>HeroUI</code></p>
+      <p><a href="https://bio-sphere-frontend.vercel.app/"><b>Live preview ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://javc-qr-code-generator.vercel.app"><img src="https://jorgeavargasc.vercel.app/images/projects/qr-code.webp" width="100%" alt="QR Code Generator"></a>
+      <a href="https://javc-qr-code-generator.vercel.app"><img src="./assets/projects/qr-code.svg" width="100%" alt="QR Code — a scanner revealing the code"></a>
       <h3>QR Code Generator</h3>
-      <p>Fully customizable QR codes — tweak colors, shapes and styles to match any brand.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Tailwind v4</code></p>
-      <p><a href="https://javc-qr-code-generator.vercel.app"><b>Live demo →</b></a> · <a href="https://github.com/JorgeAVargasC/qr-code-generator">Code</a></p>
+      <p>Brandable QR codes — colors, shapes, styles.</p>
+      <p><code>React</code> <code>TS</code> <code>Tailwind v4</code></p>
+      <p><a href="https://javc-qr-code-generator.vercel.app"><b>Live preview ↗</b></a></p>
     </td>
   </tr>
 </table>
@@ -83,7 +85,7 @@ Now based in Bilbao, Spain, going deeper into intelligent systems.
 
 <br>
 
-## What teammates say
+## Kind words
 
 > *"The dictionary defines superlative as 'of the highest kind, quality, or order; surpassing all else or others; supreme.' I define it as Jorge Vargas. As a Frontend Developer Lead, as an Engineer, as a friend."*
 >
