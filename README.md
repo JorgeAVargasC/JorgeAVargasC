@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://jorgeavargasc.vercel.app/">
-  <img src="./assets/header.svg" width="100%" alt="Jorge Vargas — Software Engineer. I build interfaces, systems, products — with craft.">
+  <img src="./assets/header.svg" width="100%" alt="Jorge Vargas — Software Engineer. I build interfaces, systems, products — that ship.">
 </a>
 
 <br><br>
